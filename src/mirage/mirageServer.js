@@ -288,27 +288,27 @@ export function makeServer({ environment = 'development' } = {}) {
               elements: [
                 {
                   code: 1211,
-                  name: 'Mumbai',
+                  name: 'Astana',
                   imageUrl: '/images/cities/mumbai.jpg',
                 },
                 {
                   code: 1212,
-                  name: 'Bangkok',
+                  name: 'Almaty',
                   imageUrl: '/images/cities/bangkok.jpg',
                 },
                 {
                   code: 1213,
-                  name: 'London',
+                  name: 'Shymkent',
                   imageUrl: '/images/cities/london.jpg',
                 },
                 {
                   code: 1214,
-                  name: 'Dubai',
+                  name: 'Aktau',
                   imageUrl: '/images/cities/dubai.jpg',
                 },
                 {
                   code: 1215,
-                  name: 'Oslo',
+                  name: 'Karaganda',
                   imageUrl: '/images/cities/oslo.jpg',
                 },
               ],
@@ -319,7 +319,7 @@ export function makeServer({ environment = 'development' } = {}) {
 
       this.get('/nearbyHotels', () => {
         const hotels = hotelsData.filter((hotel) => {
-          return hotel.city === 'pune';
+          return hotel.city === 'astana';
         });
         return new Response(
           200,
