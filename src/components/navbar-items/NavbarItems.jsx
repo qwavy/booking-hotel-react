@@ -42,10 +42,10 @@ const NavbarItems = ({ isAuthenticated, onHamburgerMenuToggle }) => {
 
   return (
     <>
-      <li className="p-4 hover:bg-blue-900 md:hover:bg-brand">
+      <li className="p-4 bg-brand bg-brand hover:bg-white-900 md:hover:bg-white">
         <Link
           to="/"
-          className={`uppercase font-medium text-slate-100 hover-underline-animation ${
+          className={`uppercase font-medium text-slate-100 hover-underline-animation hover:text-black-100 ${
             isActive('/') && 'active-link'
           }`}
           onClick={onHamburgerMenuToggle}
@@ -53,7 +53,7 @@ const NavbarItems = ({ isAuthenticated, onHamburgerMenuToggle }) => {
           Home
         </Link>
       </li>
-      <li className="p-4 hover:bg-blue-900 md:hover:bg-brand">
+      <li className="p-4 bg-brand bg-brand hover:bg-white-900 md:hover:bg-white">
         <Link
           to="/hotels"
           className={`uppercase font-medium text-slate-100 hover-underline-animation ${
@@ -64,7 +64,7 @@ const NavbarItems = ({ isAuthenticated, onHamburgerMenuToggle }) => {
           Hotels
         </Link>
       </li>
-      <li className="p-4 hover:bg-blue-900 md:hover:bg-brand">
+      <li className="p-4 bg-brand bg-brand hover:bg-white-900 md:hover:bg-white">
         <Link
           to="/about-us"
           className={`uppercase font-medium text-slate-100 hover-underline-animation ${
@@ -76,7 +76,7 @@ const NavbarItems = ({ isAuthenticated, onHamburgerMenuToggle }) => {
         </Link>
       </li>
       <li
-        className={`${!isAuthenticated && 'p-4 hover:bg-blue-900 md:hover:bg-brand'}`}
+        className={`${!isAuthenticated && 'p-4 bg-brand bg-brand hover:bg-white-900 md:hover:bg-white'}`}
       >
         {isAuthenticated ? (
           <DropdownButton triggerType="click" options={dropdownOptions} />
