@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
+import 'leaflet/dist/leaflet.css';
 import HotelsSearch from './routes/listings/HotelsSearch';
 import UserProfile from './routes/user-profile/UserProfile';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';

@@ -32,6 +32,8 @@
     "price": "900",
     "ratings": "5",
     "city": "astana",
+    "lat": 51.1339,
+    "lng": 71.4211,
     "reviews": {
       "data": [
         {
@@ -160,7 +162,9 @@
     ],
     "price": "300",
     "ratings": "4",
-    "city": "astana"
+    "city": "astana",
+    "lat": 51.09,
+    "lng": 71.418
   },
   {
     "hotelCode": 71224,
@@ -179,7 +183,9 @@
     ],
     "price": "1300",
     "ratings": "5",
-    "city": "astana"
+    "city": "astana",
+    "lat": 51.128,
+    "lng": 71.43
   },
   {
     "hotelCode": 71225,
@@ -199,7 +205,9 @@
     ],
     "price": "199",
     "ratings": "3",
-    "city": "astana"
+    "city": "astana",
+    "lat": 51.1282,
+    "lng": 71.4037
   },
   {
     "hotelCode": 71226,
@@ -209,7 +217,7 @@
         "accessibleText": "Vivanta Pune"
       }
     ],
-    "title": "Vivanta Pune",
+    "title": "Hilton Doubltree Astana",
     "subtitle": "Xion Complex, | 14.2 km from centre",
     "benefits": [
       "Pets allowed",
@@ -219,7 +227,9 @@
     ],
     "price": "9799",
     "ratings": "4.3",
-    "city": "astana"
+    "city": "astana",
+    "lat": 51.09,
+    "lng": 71.418
   },
   {
     "hotelCode": 81223,
@@ -229,7 +239,7 @@
         "accessibleText": "Taj Lands End"
       }
     ],
-    "title": "Taj Lands End",
+    "title": "Rixos Almaty",
     "subtitle": "200 metres from the seafrontBandstand",
     "benefits": [
       "Daily housekeeping",
@@ -239,7 +249,9 @@
     ],
     "price": "34100",
     "ratings": "4.2",
-    "city": "almaty"
+    "city": "almaty",
+    "lat": 43.2428,
+    "lng": 76.9426
   },
   {
     "hotelCode": 81224,
@@ -249,7 +261,7 @@
         "accessibleText": "Trident Nariman Point"
       }
     ],
-    "title": "Trident Nariman Point",
+    "title": "Novotel Almaty City Center",
     "subtitle": "24 km from Chhatrapati Shivaji International Airport",
     "benefits": [
       "Airport shuttle",
@@ -260,7 +272,9 @@
     ],
     "price": "38460",
     "ratings": "3.9",
-    "city": "almaty"
+    "city": "almaty",
+    "lat": 43.2369,
+    "lng": 76.9451
   },
   {
     "hotelCode": 81225,
@@ -270,7 +284,7 @@
         "accessibleText": "Aurika - Luxury by Lemon Tree Hotels"
       }
     ],
-    "title": "Aurika - Luxury by Lemon Tree Hotels",
+    "title": "Swissôtel Wellness Resort Alatau Almaty",
     "subtitle": "5.1 km from Phoenix Market City Mall, Aurika",
     "benefits": [
       "Outdoor swimming pool",
@@ -281,7 +295,9 @@
     ],
     "price": "17460",
     "ratings": "4.9",
-    "city": "almaty"
+    "city": "almaty",
+    "lat": 43.1833,
+    "lng": 76.87
   },
   {
     "hotelCode": 81226,
@@ -302,7 +318,9 @@
     ],
     "price": "12460",
     "ratings": "3.5",
-    "city": "almaty"
+    "city": "almaty",
+    "lat": 43.2369,
+    "lng": 76.9451
   },
   {
     "hotelCode": 81227,
@@ -312,7 +330,7 @@
         "accessibleText": "Treebo Trend New Light Suites"
       }
     ],
-    "title": "Treebo Trend New Light Suites",
+    "title": "InterContinental Almaty",
     "subtitle": "6.2 km from The Heritage Centre & Aerospace Museum",
     "benefits": [
       "Non-smoking rooms",
@@ -322,7 +340,9 @@
     ],
     "price": "5460",
     "ratings": "3.5",
-    "city": "bangalore"
+    "city": "almaty",
+    "lat": 43.2385,
+    "lng": 76.9456
   },
   {
     "hotelCode": 81228,
@@ -332,7 +352,7 @@
         "accessibleText": "Renaissance Bengaluru Race Course Hotel"
       }
     ],
-    "title": "Renaissance Bengaluru Race Course Hotel",
+    "title": "Ambassador Hotel Almaty",
     "subtitle": "Located in the heart of Bengaluru Renaissance Bengaluru Race Course Hotel",
     "benefits": [
       "Outdoor swimming poo",
@@ -342,6 +362,8 @@
     ],
     "price": "21460",
     "ratings": "5",
-    "city": "bangalore"
+    "city": "almaty",
+    "lat": 43.252,
+    "lng": 76.943
   }
 ]

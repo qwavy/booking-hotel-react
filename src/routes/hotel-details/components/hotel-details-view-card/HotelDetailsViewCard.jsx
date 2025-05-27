@@ -3,6 +3,7 @@ import UserReviews from '../user-reviews/UserReviews';
 import { networkAdapter } from 'services/NetworkAdapter';
 import React, { useEffect, useState } from 'react';
 import ReactImageGallery from 'react-image-gallery';
+import HotelDetailsMap from '../hotel-details-map/HotelDetailsMap';
 
 const HotelDetailsViewCard = ({ hotelDetails }) => {
   const images = hotelDetails.images.map((image) => ({
@@ -11,7 +12,7 @@ const HotelDetailsViewCard = ({ hotelDetails }) => {
     thumbnailClass: 'h-[80px]',
     thumbnailLoading: 'lazy',
   }));
-
+  console.log(hotelDetails);
   const [reviewData, setReviewData] = useState({
     isLoading: true,
     data: [],
@@ -99,6 +100,7 @@ const HotelDetailsViewCard = ({ hotelDetails }) => {
             </div>
           </div>
         </div>
+        <HotelDetailsMap lat={hotelDetails.lat} lng={hotelDetails.lng} />
         <UserReviews
           reviewData={reviewData}
           handlePageChange={handlePageChange}
