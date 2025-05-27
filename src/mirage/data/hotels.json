@@ -147,7 +147,7 @@
     "images": [
       {
         "imageUrl": "/images/hotels/465660377/465660377.jpg",
-        "accessibleText": "Courtyard by Marriott Pune"
+        "accessibleText": "Courtyard by Marriott Astana"
       }
     ],
     "title": "Hilton Astana",
@@ -167,7 +167,7 @@
     "images": [
       {
         "imageUrl": "/images/hotels/469186143/469186143.jpg",
-        "accessibleText": "The Westin Pune Koregaon Park"
+        "accessibleText": "The Westin Astana Koregaon Park"
       }
     ],
     "title": "Ritz Carlton Astana",
@@ -219,7 +219,7 @@
     ],
     "price": "9799",
     "ratings": "4.3",
-    "city": "pune"
+    "city": "astana"
   },
   {
     "hotelCode": 81223,
@@ -239,7 +239,7 @@
     ],
     "price": "34100",
     "ratings": "4.2",
-    "city": "mumbai"
+    "city": "almaty"
   },
   {
     "hotelCode": 81224,
@@ -260,7 +260,7 @@
     ],
     "price": "38460",
     "ratings": "3.9",
-    "city": "mumbai"
+    "city": "almaty"
   },
   {
     "hotelCode": 81225,
@@ -281,17 +281,17 @@
     ],
     "price": "17460",
     "ratings": "4.9",
-    "city": "mumbai"
+    "city": "almaty"
   },
   {
     "hotelCode": 81226,
     "images": [
       {
         "imageUrl": "/images/hotels/472036509/472036509.jpg",
-        "accessibleText": "Four Seasons Hotel Mumbai"
+        "accessibleText": "Four Seasons Hotel almaty"
       }
     ],
-    "title": "Four Seasons Hotel Mumbai",
+    "title": "Four Seasons Hotel Almaty",
     "subtitle": "In the heart of Worli, the business hub of India’s largest city",
     "benefits": [
       "Kitchen",
@@ -302,7 +302,7 @@
     ],
     "price": "12460",
     "ratings": "3.5",
-    "city": "mumbai"
+    "city": "almaty"
   },
   {
     "hotelCode": 81227,

@@ -296,21 +296,6 @@ export function makeServer({ environment = 'development' } = {}) {
                   name: 'Almaty',
                   imageUrl: '/images/cities/bangkok.jpg',
                 },
-                {
-                  code: 1213,
-                  name: 'Shymkent',
-                  imageUrl: '/images/cities/london.jpg',
-                },
-                {
-                  code: 1214,
-                  name: 'Aktau',
-                  imageUrl: '/images/cities/dubai.jpg',
-                },
-                {
-                  code: 1215,
-                  name: 'Karaganda',
-                  imageUrl: '/images/cities/oslo.jpg',
-                },
               ],
             },
           }
@@ -517,7 +502,7 @@ export function makeServer({ environment = 'development' } = {}) {
           {
             errors: [],
             data: {
-              elements: ['pune', 'bangalore', 'mumbai'],
+              elements: ['astana', 'almaty'],
             },
           }
         );
